@@ -1,101 +1,21 @@
 {
-  "_comment_File_Name": "--- Hidden manifest example. You can rename this file later and then only change UPDATE_MANIFEST_URL inside Control Webui.py ---",
-
-
-  "_comment_Step_1": "--- N Priva Webui کا مین ورژن۔ اسے بدلنے سے پوری ایپ کی اپڈیٹ چیک ہوگی ---",
-  "app_version": "1.4",
-
-
-  "_comment_Step_2": "--- WebUI کا نام۔ یہی نام About & Update Version والے حصے میں شو ہوگا ---",
-  "webui_name": "N Priva WebUI",
-
-
-  "_comment_Step_3": "--- N Priva Webui Update download (یہاں آپ Hugging Face, GitHub یا Drive کا لنک دے سکتے ہیں) ---",
-  "N_Priva_Webui_Update_url": "https://huggingface.co/...",
-
-
-  "_comment_Step_4": "--- N Priva Webui Screen show for_seconds (پاپ اپ کتنے سیکنڈ سکرین پر رکے گا) ---",
-  "N_Priva_Webui_Update_show_for_seconds": 15,
-
-
-  "_comment_Step_5": "--- Global update notice on/off ---",
+  "_comment_file": "WebUI update manifest example",
   "notice_enabled": true,
-
-
-  "_comment_Step_6": "--- اگر true ہوگا تو نئی اپڈیٹ کا پاپ اپ لازمی شو ہوگا اور خود بند نہیں ہوگا ---",
-  "force_update": false,
-
-
-  "_comment_Step_7": "--- اگر false ہوگا تو انٹرنیٹ آن ہونے پر maintenance lock overlay آ جائے گا ---",
+  "force_update": true,
   "app_enabled": true,
-
-
-  "_comment_Step_8": "--- اگر true ہوگا تو maintenance notice full screen شو ہوگا ---",
   "maintenance_mode": false,
-
-
-  "_comment_Step_9": "--- Maintenance popup title ---",
-  "maintenance_title": "Temporary Service Notice",
-
-
-  "_comment_Step_10": "--- Maintenance popup message ---",
-  "maintenance_message": "Service is temporarily paused. Please try again later.",
-
-
-  "_comment_Step_11": "--- Main notice title ---",
-  "notice_title": "NZG73 AI Update Available",
-
-
-  "_comment_Step_12": "--- Main notice text ---",
-  "notice_text": "A new update is available for WebUI / CPU / GPU.",
-
-
-  "_comment_Step_13": "--- Check Update button text ---",
+  "webui_name": "N Priva WebUI",
+  "app_version": "1.2",
+  "N_Priva_Webui_Update_url": "https://huggingface.co/.../resolve/main/N_Priva_WebUI_v1.2.zip",
+  "notice_title": "NZG73 AI WebUI Update Available",
+  "notice_text": "A new WebUI update is available. Please update to continue.",
   "check_update_button_text": "Check Update",
-
-
-  "_comment_Step_14": "--- CPU version ---",
-  "CPU_version": "1.0",
-
-
-  "_comment_Step_15": "--- CPU Update download link ---",
-  "N_Priva_CPU_Update_url": "https://huggingface.co/.../resolve/main/CPU.zip",
-
-
-  "_comment_Step_16": "--- CPU button text ---",
-  "cpu_button_text": "Update CPU",
-
-
-  "_comment_Step_17": "--- GPU version ---",
-  "GPU_version": "1.0",
-
-
-  "_comment_Step_18": "--- GPU Update download link ---",
-  "N_Priva_GPU_Update_url": "https://huggingface.co/.../resolve/main/GPU.zip",
-
-
-  "_comment_Step_19": "--- GPU button text ---",
-  "gpu_button_text": "Update GPU",
-
-
-  "_comment_Step_20": "--- Social links. جتنے چاہیں مزید add کر سکتے ہیں ---",
+  "current_version_label": "Local",
+  "remote_version_label": "New Update",
+  "show_for_seconds": 15,
   "social_links": [
-    {
-      "label": "YouTube @NZG73",
-      "url": "https://youtube.com/@NZG73"
-    },
-    {
-      "label": "Website nzg73.blogspot.com",
-      "url": "https://nzg73.blogspot.com"
-    },
-    {
-      "label": "Email nzgnzg73@gmail.com",
-      "url": "mailto:nzgnzg73@gmail.com"
-    }
-  ],
-
-
-  "_comment_Step_21": "--- آپ اپنی مرضی کے extra fields بھی نیچے add کر سکتے ہیں۔ کوڈ unknown extra fields سے نہیں ٹوٹے گا ---",
-  "custom_note_1": "You can safely add more notes here.",
-  "custom_note_2": "You can also rename the manifest later if you update the URL in Python."
+    {"label": "YouTube @NZG73", "url": "https://youtube.com/@NZG73"},
+    {"label": "Website nzg73.blogspot.com", "url": "https://nzg73.blogspot.com"},
+    {"label": "Email nzgnzg73@gmail.com", "url": "mailto:nzgnzg73@gmail.com"}
+  ]
 }
