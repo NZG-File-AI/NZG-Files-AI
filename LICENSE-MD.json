@@ -1,21 +1,27 @@
 {
-  "_comment_file": "WebUI update manifest example",
+  "_comment_file": "CPU only update manifest example",
   "notice_enabled": true,
-  "force_update": true,
-  "app_enabled": true,
-  "maintenance_mode": false,
-  "webui_name": "N Priva WebUI",
-  "app_version": "1.2",
-  "N_Priva_Webui_Update_url": "https://huggingface.co/.../resolve/main/N_Priva_WebUI_v1.2.zip",
-  "notice_title": "NZG73 AI WebUI Update Available",
-  "notice_text": "A new WebUI update is available. Please update to continue.",
+  "notice_title": "NZG73 AI CPU Update Available",
+  "notice_text": "A new CPU driver update is available for better performance.",
   "check_update_button_text": "Check Update",
   "current_version_label": "Local",
   "remote_version_label": "New Update",
+  "CPU_version": "1.3",
+  "N_Priva_CPU_Update_url": "https://huggingface.co/.../resolve/main/cpu-v1.3.zip",
+  "cpu_button_text": "Update CPU",
   "show_for_seconds": 15,
   "social_links": [
-    {"label": "YouTube @NZG73", "url": "https://youtube.com/@NZG73"},
-    {"label": "Website nzg73.blogspot.com", "url": "https://nzg73.blogspot.com"},
-    {"label": "Email nzgnzg73@gmail.com", "url": "mailto:nzgnzg73@gmail.com"}
+    {
+      "label": "YouTube @NZG73",
+      "url": "https://youtube.com/@NZG73"
+    },
+    {
+      "label": "Website nzg73.blogspot.com",
+      "url": "https://nzg73.blogspot.com"
+    },
+    {
+      "label": "Email nzgnzg73@gmail.com",
+      "url": "mailto:nzgnzg73@gmail.com"
+    }
   ]
 }
